@@ -1,3 +1,6 @@
 [submodule "OctoPrint"]
 	path = OctoPrint
 	url = https://github.com/OctoPrint/OctoPrint.git
+[submodule "plugins/OctoPrint-Queue"]
+	path = plugins/OctoPrint-Queue
+	url = https://github.com/atiniir/OctoPrint-Queue.git
