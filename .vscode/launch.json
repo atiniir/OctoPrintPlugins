@@ -8,7 +8,7 @@
             "module": "octoprint",
             "args": [
                 "--basedir",
-                "../../basedir",
+                "./basedir",
                 "serve",
                 "--debug",
             ],
