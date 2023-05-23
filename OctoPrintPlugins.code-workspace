@@ -1,0 +1,65 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.bracketPairColorization.enabled": true,
+		"editor.guides.bracketPairs": true,
+		"todo-tree.general.statusBar": "tags",
+		"todo-tree.general.showActivityBarBadge": true,
+		"todo-tree.filtering.excludeGlobs": [
+			"**/OctoPrint/**",
+			"**/venv/**",
+		],
+		"todo-tree.general.tagGroups": {
+			"FIXME": [
+				"FIXME",
+				"FIXIT",
+				"FIX"
+			]
+		},
+		"todo-tree.general.tags": [
+			"[x]",
+			"[ ]",
+			"FIX",
+			"TEST",
+			"TEMPLATE_TODO",
+			"TODO"
+		],
+		"todo-tree.highlights.customHighlight": {
+			"TODO": {
+				"gutterIcon": true,
+				"foreground": "#64dd17",
+				"background": "#008800",
+				"iconColour": "#64dd17"
+			},
+			"[x]": {
+				"gutterIcon": false,
+				"foreground": "#64dd17",
+				"background": "#008800",
+				"iconColour": "#6d7e62"
+			},
+			"[ ]": {
+				"gutterIcon": true,
+				"foreground": "#f44336",
+				"background": "#592c2c",
+				"iconColour": "#f44336"
+			},
+			"TEMPLATE_TODO": {
+				"gutterIcon": false,
+				"icon": "archive",
+				"foreground": "#468144",
+				"background": "#353535",
+				"iconColour": "#45533d"
+			},
+			"TEST": {
+				"icon": "beaker",
+				"foreground": "#b67805",
+				"background": "#777474",
+				"iconColour": "#b67805"
+			}
+		}
+	}
+}

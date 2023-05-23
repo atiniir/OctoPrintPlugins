@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "clean build artifacts",
+            "type": "shell",
+            "command": "cd Octoprint ; python ./setup.py clean"
+        },
+        {
+            "label": "build docs",
+            "type": "shell",
+            "command": "cd Octoprint ; sphinx-build -b html ./docs ./docs/_build"
+        }
+    ]
+}
