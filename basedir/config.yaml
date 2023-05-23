@@ -14,6 +14,8 @@ plugins:
         read_until: 1684540800
       _releases:
         read_until: 1683552600
+  classicwebcam:
+    _config_version: 1
   discovery:
     upnpUuid: b0077677-561d-4d9e-8f82-95629509e55d
   errortracking:
@@ -27,6 +29,7 @@ plugins:
     unique_id: 8ec16bb2-e46a-4f75-bb89-89ac44dbcede
   virtual_printer:
     _config_version: 1
+    enabled: true
 printerProfiles:
   default: _default
 server:
