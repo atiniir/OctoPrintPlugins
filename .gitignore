@@ -1,5 +1,7 @@
 # gcode from prusa samples for testing
 test_data/
+basedir/generated/**
+basedir/data/**/*.yaml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
